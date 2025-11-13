@@ -54,6 +54,12 @@ let año = prompt("Ingrese el año de nacimiento: ")
 let edad = (2024 - año)
 console.log("Su edad es: " , edad)
 
+//6. Quiero un script que salude formalmente a un cliente. Pide el nombre y el apellido del usuario y muestra en consola el mensaje: "Bienvenido, [Nombre Completo]".
+
+let nombreCliente = prompt("Ingrese el nombre: ")
+let apellidoCliente = prompt("Ingrese el apellido: ")
+let nombreCompleto = (nombreCliente + "" + apellidoCliente)
+console.log("Bienvenido", nombreCompleto)
 
 
 
