@@ -48,4 +48,12 @@ let temperaturaC = (temperaturaF - 32) / 1.8
 
 console.log("Su temperatura en °C es: " ,temperaturaC)
 
+//5. Necesito saber la edad de un usuario. Pide su año de nacimiento y, asumiendo que el año actual es 2024, calcula cuántos años tiene
+
+let año = prompt("Ingrese el año de nacimiento: ")
+let edad = (2024 - año)
+console.log("Su edad es: " , edad)
+
+
+
 
