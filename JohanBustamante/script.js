@@ -41,5 +41,11 @@ console.log("El largo del potrero es: " , largoPotrero)
 console.log("La ancho  del potrero es: " , anchoPotrero)
 console.log("El perimetro del potrero es: " , perimetroPotrero )
 
+//4. Mi app del clima solo muestra la temperatura en grados Fahrenheit. Pide la temperatura en °F y conviértela a grados Celsius.
+
+let temperaturaF = prompt("Ingrese la temperatura en °F: ")
+let temperaturaC = (temperaturaF - 32) / 1.8
+
+console.log("Su temperatura en °C es: " ,temperaturaC)
 
 
